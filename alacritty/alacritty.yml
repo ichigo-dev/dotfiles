@@ -181,7 +181,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: 'SauceCOdePro Nerd Font'
+    family: "SauceCodePro Nerd Font"
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -193,7 +193,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: 'SauceCOdePro Nerd Font'
+    family: "SauceCodePro Nerd Font"
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -205,7 +205,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: 'SauceCOdePro Nerd Font'
+    family: "SauceCodePro Nerd Font"
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -217,7 +217,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: 'SauceCOdePro Nerd Font'
+    family: "SauceCodePro Nerd Font"
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -255,8 +255,8 @@ colors:
 
   # Default colors
   primary:
-    background: '#1d1f21'
-    foreground: '#c5c8c6'
+    background: "#2e3440"
+    foreground: "#d8dee9"
 
     # Bright and dim foreground colors
     #
@@ -264,8 +264,8 @@ colors:
     # present. If the bright foreground color is not set, or
     # `draw_bold_text_with_bright_colors` is `false`, the normal foreground
     # color will be used.
-    dim_foreground: '#828482'
-    bright_foreground: '#eaeaea'
+    dim_foreground: "#828482"
+    bright_foreground: "#eaeaea"
 
   # Cursor colors
   #
@@ -274,8 +274,8 @@ colors:
   # Allowed values are CellForeground/CellBackground, which reference the
   # affected cell, or hexadecimal colors like #ff00ff.
   cursor:
-    text: CellBackground
-    cursor: CellForeground
+    text: "#2e3440"
+    cursor: "#d8dee9"
 
   # Vi mode cursor colors
   #
@@ -295,11 +295,11 @@ colors:
     # Allowed values are CellForeground/CellBackground, which reference the
     # affected cell, or hexadecimal colors like #ff00ff.
     matches:
-      foreground: '#000000'
-      background: '#ffffff'
+      foreground: "#000000"
+      background: "#ffffff"
     focused_match:
-      foreground: '#ffffff'
-      background: '#000000'
+      foreground: "#ffffff"
+      background: "#000000"
 
   # Keyboard hints
   hints:
@@ -309,16 +309,16 @@ colors:
     # Allowed values are CellForeground/CellBackground, which reference the
     # affected cell, or hexadecimal colors like #ff00ff.
     start:
-      foreground: '#1d1f21'
-      background: '#e9ff5e'
+      foreground: "#1d1f21"
+      background: "#e9ff5e"
 
     # All characters after the first one in the hint label
     #
     # Allowed values are CellForeground/CellBackground, which reference the
     # affected cell, or hexadecimal colors like #ff00ff.
     end:
-      foreground: '#e9ff5e'
-      background: '#1d1f21'
+      foreground: "#e9ff5e"
+      background: "#1d1f21"
 
   # Line indicator
   #
@@ -336,8 +336,8 @@ colors:
   # hyperlink URI preview, etc.
   #
   footer_bar:
-    background: '#c5c8c6'
-    foreground: '#1d1f21'
+    background: "#c5c8c6"
+    foreground: "#1d1f21"
 
   # Selection colors
   #
@@ -351,39 +351,39 @@ colors:
 
   # Normal colors
   normal:
-    black:   '#1d1f21'
-    red:     '#cc6666'
-    green:   '#b5bd68'
-    yellow:  '#f0c674'
-    blue:    '#81a2be'
-    magenta: '#b294bb'
-    cyan:    '#8abeb7'
-    white:   '#c5c8c6'
+    black:   "#3b4252"
+    red:     "#bf616a"
+    green:   "#a3be8c"
+    yellow:  "#ebcb8b"
+    blue:    "#81a1c1"
+    magenta: "#b48ead"
+    cyan:    "#88c0d0"
+    white:   "#e5e9f0"
 
   # Bright colors
   bright:
-    black:   '#666666'
-    red:     '#d54e53'
-    green:   '#b9ca4a'
-    yellow:  '#e7c547'
-    blue:    '#7aa6da'
-    magenta: '#c397d8'
-    cyan:    '#70c0b1'
-    white:   '#eaeaea'
+    black:   "#4c566a"
+    red:     "#bf616a"
+    green:   "#a3be8c"
+    yellow:  "#ebcb8b"
+    blue:    "#81a1c1"
+    magenta: "#b48ead"
+    cyan:    "#8fbcbb"
+    white:   "#eceff4"
 
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
   # on the `normal` colors.
   dim:
-    black:   '#131415'
-    red:     '#864343'
-    green:   '#777c44'
-    yellow:  '#9e824c'
-    blue:    '#556a7d'
-    magenta: '#75617b'
-    cyan:    '#5b7d78'
-    white:   '#828482'
+    black:   "#131415"
+    red:     "#864343"
+    green:   "#777c44"
+    yellow:  "#9e824c"
+    blue:    "#556a7d"
+    magenta: "#75617b"
+    cyan:    "#5b7d78"
+    white:   "#828482"
 
   # Indexed Colors
   #
