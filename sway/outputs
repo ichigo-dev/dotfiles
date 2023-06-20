@@ -1,0 +1,8 @@
+output * bg bg.png fill
+
+output DP-2 pos 0 0 res 1920x1080
+output HDMI-A-2 pos 1920 0 res 1920x1080
+output HDMI-A-1 pos 3840 0 res 1920x1080
+workspace 1 output DP-2
+workspace 2 output HDMI-A-2
+workspace 3 output HDMI-A-1
